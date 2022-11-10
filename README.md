@@ -215,3 +215,28 @@ if (name === "David") {
 
 =============== EX09 ====================
 
+// ChoomChoom
+
+/* Ecrivez une fonction choomChoom qui prend en paramètre un nombre entier et qui retourne la chaîne de caractère Choom si le nombre est pair et ChoomChoom si le nombre est impair */
+
+/* exemple : nombre 4 ===> "Choom"
+              nombre 5 ===> "ChoomChoom"    */
+
+
+console.log("enter your number")
+
+const num = prompt("enter number");
+
+if (num%2 == 0) {
+  console.log("Choom")
+} else { 
+  console.log("ChoomChoom")
+}
+
+
+// Ne touchez pas les lignes en dessous
+module.exports = {
+  choomChoom
+}
+
+=========== EX10 ====================
