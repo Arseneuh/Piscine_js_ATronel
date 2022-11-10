@@ -122,7 +122,7 @@ console.log("fin du programme")
 10
 */
 
-========= EX06 ==========
+============= EX06 ================
 
 /* Créez un programme qui affiche uniquement les nombres pairs de 2 à 100, à l'aide d'une variable */
 
@@ -148,3 +148,70 @@ console.log("fin du programme")
 98
 100
 */
+
+================= EX07 =======================
+
+// Hello user ! 
+/* Ecrire un programme qui affiche dans la console le texte suivant (OUTPUT).
+Le programme doit demander à l'utilisateur son prénom. Et ensuite lui souhaiter une belle journée avec son prénom indiqué.
+
+===== OUTPUT =====
+
+Hello user !
+How are you today ? What is your name ?> Peter
+Have a nice day Peter !
+
+===============
+
+Explications du programme, Peter est le nom indiqué par l'utilisateur, le programme sera testé avec différentes valeurs et devra affiché la valeur indiqué par l'utlisateur lors de la demande du programme.
+*/
+
+
+console.log("Hello user!")
+let name= prompt("How are you today ? What is your name ?")
+console.log("Have a nice day" + ' '+ name + '!' )
+
+=================== EX08 ===========================
+
+// Rebecca's Secret Message 
+
+/* 
+  
+Rebecca est amoureuse de David, elle a crée un programme spécialement pour lui avouer sa flamme lors de son prochain cours de programmation.
+le programme à la comportement suivant : 
+
+Le programme va saluer l'utilisateur 
+Ensuite lui demander son prénom ?
+Et si le prénom de l'utilisateur est David, le programme affiche :
+"I really wanna stay at your house, and i hope this works out"
+Si le prénom de l'utilisateur n'est pas David le programmie affiche : 
+"Get away !"
+
+====OUTPUT case David==== 
+
+Welcome to my secret Diary !
+What is your name ?> David
+I really wanna stay at your house, and i hope this works out...
+
+
+====OUTPUT case Other==== 
+Welcome to my secret Diary !
+What is your name ?> Juan
+Get Away !
+
+
+//Pensez à tester votre code sur index.js
+
+  */
+
+console.log("Welcome to my secret Diary !")
+const name= prompt("What is your name ?")
+
+if (name === "David") {
+  console.log("I really wanna stay at your house, and i hope this works out... ")
+} else {
+    console.log("Get away !")
+}
+
+=============== EX09 ====================
+
