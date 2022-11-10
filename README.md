@@ -223,16 +223,13 @@ if (name === "David") {
               nombre 5 ===> "ChoomChoom"    */
 
 
-console.log("enter your number")
-
-const num = prompt("enter number");
-
-if (num%2 == 0) {
-  console.log("Choom")
-} else { 
-  console.log("ChoomChoom")
+function choomChoom(a){
+  if (a % 2 == 0) {
+     return("choom")
+  } else {
+   return("choomchoom")
+  }
 }
-
 
 // Ne touchez pas les lignes en dessous
 module.exports = {
@@ -240,3 +237,19 @@ module.exports = {
 }
 
 =========== EX10 ====================
+
+function cyberNumber(a){
+
+if (a % 3 == 0 && a % 5 == 0  ) {
+  console.log("CyberPunk2077");
+  return "CyberPunk2077";
+}  if ( a % 3 == 0){
+  console.log("Cyber")
+  return "Cyber"
+} if (a % 5 == 0 ){
+  console.log("Punk");
+  return "Punk";
+}  else {
+console.log("pas mutliple de 3 et 5")
+}
+}
