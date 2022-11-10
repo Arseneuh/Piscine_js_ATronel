@@ -72,4 +72,79 @@ module.exports = {
 
 ======= EX05 =============
 
+/* Ecrivez un programme qui affiche uniquement les nombres de 0 à 10 à l'aide d'une variable i */
 
+//Testez votre programme sur index.js
+
+for(let i = 0; i <= 10; i++){
+  console.log(i);
+}
+
+console.log("fin du programme")
+
+/* la console doit afficher  :
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+*/
+
+======== EXO5 ========
+
+/* Ecrivez un programme qui affiche uniquement les nombres de 0 à 10 à l'aide d'une variable i */
+
+//Testez votre programme sur index.js
+
+for(let i = 0; i <= 10; i++){
+  console.log(i);
+}
+
+console.log("fin du programme")
+
+/* la console doit afficher  :
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+*/
+
+========= EX06 ==========
+
+/* Créez un programme qui affiche uniquement les nombres pairs de 2 à 100, à l'aide d'une variable */
+
+// Testez votre programme sur index.js
+
+for(let i = 2; i<=100; i = i+2) {
+  console.log(i);
+}
+console.log("fin du programme")
+
+
+
+
+
+/* la console doit afficher  :
+
+2
+4
+6
+8
+10
+...
+98
+100
+*/
